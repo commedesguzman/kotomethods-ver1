@@ -3,35 +3,36 @@ body {
     background-color: white;
     font-family: Arial, sans-serif;
     display: flex;
-    /*padding: 12px 13px;*/
     flex-direction: column;
-    align-items: flex-start;
-    /*gap: 10px;*/
+    align-items: flex-end;
+ 
 }
-
 
 ul {
     list-style: none;
-    margin: 0;
+    margin-top: 20px;
+    margin-left: 2px;
     display: flex;
+    justify-content: center;
 }
 
 li {
-    padding: 1rem;
-    /* margin-right: 20px;*/
+    padding: 0.5px;
 }
 
 a {
     text-decoration: none;
     color: #003CAA;
     display: inline-block; /*make the width fixed*/
-    padding: 0.5rem;
+    padding: 10px;
     text-align: center; /* Center-align text within the link */
 }
 
 a:hover {
     background-color: #003CAA;
     color: white;
-  
 }
 
+img {
+    display: 2;
+}
