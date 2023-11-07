@@ -1,38 +1,37 @@
 /*horizontal menu*/
 body {
+    background-color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    /*padding: 12px 13px;*/
+    flex-direction: column;
+    align-items: flex-start;
+    /*gap: 10px;*/
 }
 
 
 ul {
     list-style: none;
-    padding: 0;
     margin: 0;
-    background-color: #003CAA;
     display: flex;
 }
 
 li {
-    margin-right: 20px;
+    padding: 1rem;
+    /* margin-right: 20px;*/
 }
 
 a {
     text-decoration: none;
-    color: #fff;
-}
-
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    background-color: #f5f5f5;
+    color: #003CAA;
+    display: inline-block; /*make the width fixed*/
+    padding: 0.5rem;
+    text-align: center; /* Center-align text within the link */
 }
 
 a:hover {
-    background-color: white; /* Change the background color on hover */
-    color: #003CAA;
+    background-color: #003CAA;
+    color: white;
+  
 }
 
