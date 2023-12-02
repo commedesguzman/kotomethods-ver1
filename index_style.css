@@ -1,38 +1,55 @@
-/*horizontal menu*/
-body {
+body    {
     background-color: white;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
- 
 }
 
-ul {
-    list-style: none;
-    margin-top: 20px;
-    margin-left: 2px;
-    display: flex;
-    justify-content: center;
+.line {
+    width: 100%;
+    height: 4px; /* Adjust the thickness of the line as needed */
+    background-color: #003CAA; /* Change color as desired */
 }
 
-li {
-    padding: 0.5px;
-}
-
-a {
-    text-decoration: none;
+h1 {
+    font-family: 'Urbanist', sans-serif;
     color: #003CAA;
-    display: inline-block; /*make the width fixed*/
-    padding: 10px;
-    text-align: center; /* Center-align text within the link */
 }
 
-a:hover {
-    background-color: #003CAA;
-    color: white;
+h2 {
+    font-family: 'Urbanist', sans-serif;
+    color: #003CAA;
+    font-weight: 700;
 }
 
-img {
-    display: 2;
+.about  {
+    font-family: 'Urbanist' , sans-serif;
+    color: #003CAA;
+    font-weight: 500;
+}
+
+iframe  {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+    /* flex-direction: column;
+    height: 100%; */
+}
+
+/*
+removing flex-direction: column and height: 100% creates a column. need to find out how to make that column wider
+*/
+
+
+.white1 , .white2 {
+    height: 100%;
+    flex: 1;
+    background-color: #ffffff; /* White color */
+    border-color: #003CAA;
+}
+  
+.blue {
+    height: 100%;
+    flex: 1;
+    background-color: #003CAA; /* #003CAA color */
 }
